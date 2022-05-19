@@ -47,6 +47,15 @@
     <p>Para adicionar imagens, é bem simples, basta adicionar a tag &lt;img&gt; com o scr="Destino onde a imagem se encontra" e alt="Sobre o que a Imagem se refere. <br>
     Exemplo: "</p>
     <img src="file:///C:/Users/150367/Downloads/logo-html.png.webp" alt="Logo HTML">
+    <p>Para adicionar imagens expansíveis, e o seu site ser acessível em diferentes dispositivols sem quebrar a formação, utilizamos a tag &lt;picture&gt; , dentro da indentação de tag picture, entra a tag &lt;img&gt; como imagem principal, e a tag &lt;source&gt; buscará a imagem de tamanho alternativo.</p>
+    <!--Exemplo:-->
+    <!--
+        <picture>
+            <source media="(min-width:#)" srcset="#" type="image/#">
+            <source media="(max-width:#)" srcset="#" type="image/#">
+            <img src="#" alt="#">
+        </picture>
+    -->
     <h2>Adicionar Ícone</h2>
     <hr>
     <p>Para adicionar uma logo para icone devemos usar o formato de imagem "ICO", para pegar um icon pronto basta buscar "icon archive" no Navegador, para transformar uma imagem jpg, png em icon, basta utilizar o favicon.io! Para colocá-lo, basta usar a tag &lt;Link:favicon&gt; na área Head do html.</p>
