@@ -1,0 +1,10 @@
+@charset "UTF-8"; 
+
+h1{
+    margin-left: 35%;
+    color: rgb(2, 126, 126);
+}
+
+body{
+    text-align: justify;
+}
