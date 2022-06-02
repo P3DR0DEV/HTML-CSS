@@ -8,9 +8,12 @@
 //console.log(idadeCachorro)
 
 let count = 0
+window.confirm('Enjoying JavaScript?') // janela de confirmação
+let nome = window.prompt('What\'s your name? ') // Janela que recebe uma string no navegador 
 
 function increment() {
-    console.log("The button was clicked!")
+    count = count + 1 
+    alert("The button wad clicked by "+ nome) // Janela de alerta
 }
 
-console.log(increment())
+increment()
