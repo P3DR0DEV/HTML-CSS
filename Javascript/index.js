@@ -9,11 +9,20 @@
 
 let count = 0
 window.confirm('Enjoying JavaScript?') // janela de confirmação
-let nome = window.prompt('What\'s your name? ') // Janela que recebe uma string no navegador 
+let nome = window.prompt('What\'s your name? ') // Janela que recebe uma string no navegador
+let num1 = window.prompt('Digite um número:')
+let num2 = window.prompt('Digite outro número:') 
 
-function increment() {
-    count = count + 1 
-    alert("The button wad clicked by "+ nome) // Janela de alerta
+num1 = Number.parseInt(num1) // ou num1 = Number.parseInt(window.prompt(Digite um número:))
+num2 = Number.parseInt(num2) // ou Number(num2)
+
+// parseInt == Para converter para inteiro
+//parseFloat == Para converter para números reais 
+
+let sum = num1 +num2
+
+function somar() {
+    alert(`${nome}, a soma dos 2 números digitados equivale a: ${sum}`) // Janela de alerta
 }
 
 increment()
