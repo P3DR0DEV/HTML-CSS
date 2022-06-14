@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: normal;
+    background-image: linear-gradient(to top, #015958, #008F8C, #0CABA8, #0FC2C0);
+    background-attachment:fixed ;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+h1{
+    text-align: center;
+}
+
+h2.right{
+    text-align: right;
+    font-size: 1.2em;
+} 
