@@ -14,8 +14,20 @@ p{
 h1{
     text-align: center;
 }
-
-h2.right{
+/* Seletor de classe */
+h2.right{ 
     text-align: right;
     font-size: 1.2em;
-} 
+}
+p{
+    color: #FFFFFF;
+    text-shadow: black 1px;
+}
+
+.rodape{
+    text-align: right;
+    font-size: 1.2em;
+}
+
+/* Seletor de ID = #"id" */
+
