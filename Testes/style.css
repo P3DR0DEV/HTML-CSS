@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+header > nav >a{
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#local{
+    text-align: right;
+}
+#local > img{
+    border-radius: 90px;
+}
+#local > address{
+    margin-left: 75%;
+}
+
+#identify > h2{
+    display: inline;
+    margin: 0px;
+    font-weight: normal;
+}
+#identify >p{
+    text-align: justify;
+}
+.Projetos> h2{
+    font-weight: normal;
+}
