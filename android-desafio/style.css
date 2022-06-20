@@ -24,9 +24,32 @@
     margin: 0px;
     padding: 0px;
 }
+a.externo::after{
+    content: '\1F517';
+}
 
 body{
     background-color: var(--cor1);
+}
+main p{
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+main strong{
+    color:var(--cor5);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+main a{
+    text-decoration: none;
+    color: var(--cor6);
+    padding: 2px 6px;
+    background-color: var(--cor1);
+}
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor5);
 }
 
 .cabeçalho{
@@ -41,6 +64,7 @@ body{
     margin-bottom: 20px;
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    font-weight: normal;
 }
 .cabeçalho > p{
     font-family: var(--fonte-padrao);
@@ -89,12 +113,20 @@ picture> img{
     width: 100%;
 }
 .imgpq{
+    max-width: 350px;
     display: block;
     margin: auto;
 }
-h2, h3{
+article h2, h3{
     color: var(--cor4);
     font-family: var(--fonte-android);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-weight: normal;
+}
+#lastp{
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 1.5em;
 }
 
 #Extra{
@@ -104,11 +136,40 @@ h2, h3{
     padding: 5px 20px;
     box-shadow: 1px 1px  0px rgba(0, 0, 0, 0.315);
 }
-
+#Extra a{
+    background-color: var(--cor4);
+}
 #Extra> h3{
+    background-image: none;
     background-color: var(--cor5);
     color: #FFFFFF;
     font-family: var(--fonte-padrao);
+    margin: -7px -21px 0px -20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    columns: 2;
+}
+ul li::before{
+    content: '\2713';
+}
+
+.video{
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+
+}
+.video >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 footer > p{
@@ -116,4 +177,5 @@ footer > p{
     text-align: center;
     background-color: var(--cor6);
     padding: 5px;
+    font-size: 0.8em;
 }
