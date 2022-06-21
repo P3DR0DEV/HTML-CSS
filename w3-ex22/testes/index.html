@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        .quadrado{
+            display: inline-block;
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        #q1{
+            background-color: lightblue;
+        }
+        #q2{
+            background-image: linear-gradient(to bottom, yellow , red) ;
+        }
+        #q3{
+            background-image: url(imagens/wallpaper003.jpg);
+            background-size: 100% 100%;
+            background-position: bottom center;
+            background-repeat: no-repeat;
+        }
+        h1{
+            text-align: center;
+            color: #ffffff;
+        }
+        .test{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="test">
+        <div class="quadrado" id="q1">
+            <h1>Teste 1</h1>
+        </div>
+        <div class="quadrado" id="q2">
+            <h1>Teste 2</h1>
+        </div>
+        <div class="quadrado" id="q3">
+            <h1>Teste 3</h1>
+        </div>
+    </div>
+</body>
+</html>
