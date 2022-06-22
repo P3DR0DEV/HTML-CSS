@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --font-1: Verdana, Geneva, Tahoma, sans-serif;
+    --font-2:'Passion One', cursive;
+    --font-3: 'Sriracha', cursive;
+}
+
+
+/* body */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body{
+    min-height: 100vh;
+    font-family: var(--font-1);
+    background-color: darkgray;
+}
+
+
+/* Header */
+.cabeçalho{
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+}
+.title{
+    font-family: var(--font-2);
+    font-size: 2em;
+    font-weight: bolder;
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+.subtitle{
+    padding-bottom: 50px;
+    font-size: 1em;
+    font-weight: normal;
+}
+.links{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* Conteúdo */
+
+.texto{
+    background-color: #ffffff;
+    font-family: var(--font-3);
+    font-size: 3.5vw;
+    padding: 10vh 0vh 10vh 30px;
+    line-height: 2em;
+}
+
+#flor{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#livro{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo{
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px black;
+    width: fit-content;
+}
+
+
+/* Footer */
+
+.rodape{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
