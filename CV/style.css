@@ -3,8 +3,35 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(26, 26, 26);
-    color: white;
+    text-align: justify;
+
+}
+p{
+    text-indent: 20px;
+}
+body{
+    background-color: black;
+    color: #ffffff;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2021/08/chris-ried-ieic5Tq8YMk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+strong{
+    font-size: 1em;
+    font-weight: 600;
+}
+.links{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+.links:hover{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .5s;
 }
 h1{
     text-align: center;
@@ -26,17 +53,18 @@ nav{
     border-radius: 90px;
 }
 #local > address{
-    margin-left: 75%;
+    margin-left: 60%;
 }
 
-#identify > h2{
-    display: inline;
-    margin: 0px;
-    font-weight: normal;
-}
-#identify >p{
-    text-align: justify;
+main {
+    max-width: 700px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+
 }
 .Projetos> h2{
-    font-weight: normal;
+    font-weight: bold;
 }
