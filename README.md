@@ -6,3 +6,5 @@ Curso HTML/CSS
 
 
 [Android Site](https://p3dr0dev.github.io/HTML-CSS/android-desafio/index.html) - Primeiro site feito e hospedado.
+
+[Cordel Moderno](https://p3dr0dev.github.io/HTML-CSS/cordel-desafio/cordel.html) - Cordel feito com efeito parallax.
