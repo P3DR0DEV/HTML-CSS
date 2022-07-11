@@ -13,3 +13,5 @@ Curso de HTML e CSS do CursoemVideo, com o professor Guanabara (Guaraná).
 [Android Site](https://p3dr0dev.github.io/HTML-CSS/android-desafio/index.html) - Primeiro site feito e hospedado.
 
 [Cordel Moderno](https://p3dr0dev.github.io/HTML-CSS/cordel-desafio/cordel.html) - Cordel feito com efeito parallax.
+
+[Calculadora de IMC](https://p3dr0dev.github.io/JavaScript/IMC/index.html) - Calculadora de IMC feita com HTML - CSS - JS 
